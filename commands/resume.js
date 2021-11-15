@@ -5,6 +5,6 @@ module.exports = {
         if (!message.member.voice.channel) {
             return message.reply("You must be in a voice channel.")
         }
-        distube.resumeSong = true
+        distube.resume(message)
     }
 }
